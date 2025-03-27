@@ -7,6 +7,11 @@ namespace MyGame
         private string name;
         private float health;
         private float shield;
+        private static int powerupsCollected;
+
+        static Enemy() {
+            powerupsCollected = 0;
+        }
 
         public Enemy(string name)
         {
@@ -56,6 +61,11 @@ namespace MyGame
             {
                 shield = Math.Min(100, shield + n);
             }
+            powerupsCollected++;
+        }
+
+        public static int GetPowerUpsCollected() {
+            return powerupsCollected;
         }
     }
 }

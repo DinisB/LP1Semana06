@@ -26,6 +26,19 @@ namespace MyGame
                 Console.Write($"{inimigos[i].GetName()} {inimigos[i].GetHealth()} {inimigos[i].GetShield()}");
                 Console.WriteLine();
             }
+            foreach (Enemy inimigo in inimigos)
+            {
+                inimigo.PickupPowerUp(PowerUp.Shield, Random.Shared.Next(10, 50));
+                Console.WriteLine($"PowerUp Shield: {inimigo.GetName()} {inimigo.GetHealth()} {inimigo.GetShield()}");
+
+                inimigo.TakeDamage(Random.Shared.Next(10, 100));
+                Console.WriteLine($"TakeDamage: {inimigo.GetName()} {inimigo.GetHealth()} {inimigo.GetShield()}");
+
+                inimigo.PickupPowerUp(PowerUp.Health, Random.Shared.Next(10, 50));
+                Console.WriteLine($"PowerUp Health: {inimigo.GetName()} {inimigo.GetHealth()} {inimigo.GetShield()}\n");
+            }
+
+            Console.WriteLine($"\nTotal de PowerUps: {Enemy.GetPowerUpsCollected()}");
         }
     }
 }
