@@ -45,5 +45,17 @@ namespace MyGame
         public void SetName(string setname) {
             name = setname.Substring(0, Math.Min(8, setname.Length));
         }
+
+        public void PickupPowerUp(PowerUp powerup, float n)
+        {
+            if (powerup == PowerUp.Health)
+            {
+                health = Math.Min(100, health + n);
+            }
+            else if (powerup == PowerUp.Shield)
+            {
+                shield = Math.Min(100, shield + n);
+            }
+        }
     }
 }
