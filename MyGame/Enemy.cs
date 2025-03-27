@@ -1,3 +1,5 @@
+using System;
+
 namespace MyGame
 {
     public class Enemy
@@ -5,10 +7,10 @@ namespace MyGame
         private string name;
         private float health;
         private float shield;
-        
+
         public Enemy(string name)
         {
-            this.name = name;
+            SetName(name);
             health = 100;
             shield = 0;
         }
@@ -28,6 +30,20 @@ namespace MyGame
                 health -= damageStillToInflict;
                 if (health < 0) health = 0;
             }
+        }
+
+        public float GetHealth()
+        {
+            return health;
+        }
+
+        public float GetShield()
+        {
+            return shield;
+        }
+
+        public void SetName(string setname) {
+            name = setname.Substring(0, Math.Min(8, setname.Length));
         }
     }
 }
