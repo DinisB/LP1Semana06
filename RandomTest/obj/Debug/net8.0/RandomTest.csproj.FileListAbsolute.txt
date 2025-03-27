@@ -1,0 +1,14 @@
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\bin\Debug\net8.0\RandomTest.exe
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\bin\Debug\net8.0\RandomTest.deps.json
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\bin\Debug\net8.0\RandomTest.runtimeconfig.json
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\bin\Debug\net8.0\RandomTest.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\bin\Debug\net8.0\RandomTest.pdb
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.AssemblyInfoInputs.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.AssemblyInfo.cs
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.csproj.CoreCompileInputs.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\refint\RandomTest.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.pdb
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\RandomTest.genruntimeconfig.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandomTest\obj\Debug\net8.0\ref\RandomTest.dll
