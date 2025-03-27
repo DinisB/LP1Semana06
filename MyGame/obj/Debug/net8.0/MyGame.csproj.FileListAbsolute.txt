@@ -1,0 +1,15 @@
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\bin\Debug\net8.0\MyGame.exe
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\bin\Debug\net8.0\MyGame.deps.json
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\bin\Debug\net8.0\MyGame.runtimeconfig.json
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\bin\Debug\net8.0\MyGame.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\bin\Debug\net8.0\MyGame.pdb
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.AssemblyInfoInputs.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.AssemblyInfo.cs
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.sourcelink.json
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\refint\MyGame.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.pdb
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\MyGame.genruntimeconfig.cache
+C:\Users\Dinis\Documents\LP1\LP1Semana06\MyGame\obj\Debug\net8.0\ref\MyGame.dll
