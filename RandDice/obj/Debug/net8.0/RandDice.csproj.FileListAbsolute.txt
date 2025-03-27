@@ -12,3 +12,4 @@ C:\Users\Dinis\Documents\LP1\LP1Semana06\RandDice\obj\Debug\net8.0\refint\RandDi
 C:\Users\Dinis\Documents\LP1\LP1Semana06\RandDice\obj\Debug\net8.0\RandDice.pdb
 C:\Users\Dinis\Documents\LP1\LP1Semana06\RandDice\obj\Debug\net8.0\RandDice.genruntimeconfig.cache
 C:\Users\Dinis\Documents\LP1\LP1Semana06\RandDice\obj\Debug\net8.0\ref\RandDice.dll
+C:\Users\Dinis\Documents\LP1\LP1Semana06\RandDice\obj\Debug\net8.0\RandDice.sourcelink.json
