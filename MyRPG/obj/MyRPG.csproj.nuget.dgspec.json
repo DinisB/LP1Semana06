@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj": {}
+    "c:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj": {
+    "c:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj",
+        "projectUniqueName": "c:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj",
         "projectName": "MyRPG",
-        "projectPath": "C:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj",
+        "projectPath": "c:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\MyRPG.csproj",
         "packagesPath": "C:\\Users\\Dinis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\obj\\",
+        "outputPath": "c:\\Users\\Dinis\\Documents\\LP1\\LP1Semana06\\MyRPG\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dinis\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

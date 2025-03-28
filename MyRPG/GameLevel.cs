@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Humanizer;
 
 namespace MyRPG
 {
@@ -11,6 +12,10 @@ namespace MyRPG
         public GameLevel(int r, Hardness level)
         {
             rooms = new Room[r];
+            for (int i = 0; i < r; i++)
+            {
+                rooms[i] = new Room();
+            }
             this.level = level;
         }
 
@@ -28,23 +33,39 @@ namespace MyRPG
             }
         }
 
-        public Hardness GetHardness() {
+        public Hardness GetHardness()
+        {
             return level;
         }
 
-        public int GetNumRooms() {
+        public int GetNumRooms()
+        {
             int roomn = rooms.Count();
             return roomn;
         }
 
-        public int GetNumEnemies() {
+        public int GetNumEnemies()
+        {
             int num = 0;
-            for (int i = 0; i < rooms.Count(); i++) {
-                if (rooms[i].Enemy != null) {
+            for (int i = 0; i < rooms.Count(); i++)
+            {
+                if (rooms[i].Enemy != null)
+                {
                     num++;
                 }
             }
             return num;
+        }
+
+        public void PrintEnemies()
+        {
+            for (int i = 0; i < rooms.Count(); i++)
+            {
+                if (rooms[i].Enemy != null)
+                {
+                    Console.WriteLine($"Room {i.ToRoman()}: {rooms[i].Enemy.GetName()}");
+                }
+            }
         }
     }
 }
